@@ -1,0 +1,58 @@
+<!-- <form class="example-form">
+   <mat-form-field class="example-full-width" >
+      <mat-label>First name</mat-label>
+      <input matInput>
+    </mat-form-field>
+
+   </form> -->
+
+
+   <div class="example-container">
+    <div class="form-cont-sign">
+      <form [formGroup]="signupForm" >
+
+
+        <mat-form-field class="form-field" appearance="outline">
+            <mat-label> Name
+            </mat-label>
+            <app-input-text></app-input-text>          
+
+           
+          </mat-form-field>
+
+          <br />
+
+        <mat-form-field class="form-field" appearance="outline">
+            <mat-label> Mob.Number
+            </mat-label>
+            <app-input-text></app-input-text>          
+
+           
+          </mat-form-field>
+          <br />
+
+
+        <mat-form-field class="form-field" appearance="outline">
+          <mat-label> E-mail
+          </mat-label>
+          <app-input-text></app-input-text>          
+
+         
+        </mat-form-field>
+        <br />
+
+        <mat-form-field class="form-field" appearance="outline">
+          <mat-label> Password
+          </mat-label>
+          <app-input-text></app-input-text>          
+
+         
+        </mat-form-field>
+        <br />
+
+        <!-- <button mat-raised-button color="primary" type="submit">Log In</button> -->
+<app-input-button></app-input-button>
+
+      </form>
+    </div>
+  </div>

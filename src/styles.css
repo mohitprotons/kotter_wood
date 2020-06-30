@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.example-container{
+    text-align: center;
+    justify-content: center;
+display: flex;
+margin: 50px !important; 
+
+}
+
+.form-cont{
+    width: 436px !important;
+    margin-top: 110px;
+    /* height: 263px;
+     */
+     height: 35vh;
+    padding-top: 12px;
+    /* box-shadow: 2px 5px 6px 1px #00968845; */
+    background-color: #9e9e9e2e;
+    border-radius: 16px;
+}
+
+
+.form-cont-sign{
+    width: 436px !important;
+    margin-top: 110px;
+    /* height: 263px;
+     */
+     height: 56vh;
+    padding-top: 12px;
+    /* box-shadow: 2px 5px 6px 1px #00968845; */
+    background-color: #9e9e9e2e;
+    border-radius: 16px;
+}
+
+
+
+.form-field{
+    display: block
+}
