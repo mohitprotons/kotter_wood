@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginModule } from './component/login/login.module';
+import { UnAuthModule } from './component/login/unauth.module';
+import { AuthModule } from './pages/auth.module';
+
 
 
 
@@ -13,16 +15,17 @@ import { LoginModule } from './component/login/login.module';
 @NgModule({
   declarations: [
     AppComponent,
+    
    
    
   
     
   ],
   imports: [
-    LoginModule,
+    UnAuthModule,
     BrowserModule,
     AppRoutingModule,
-
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]

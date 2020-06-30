@@ -18,7 +18,7 @@ const routes: Routes = [
 
   { path: '', component: LoginComponent },
   { path: 'signup', component: SignUpComponent },
-  { path: 'land', component: LandingPageComponent,canActivate:[AuthGuard] },
+  { path: 'land', component: LandingPageComponent},
 
 
 
@@ -44,4 +44,4 @@ const routes: Routes = [
   exports: [RouterModule],
 
 })
-export class LoginModule { }
+export class UnAuthModule { }
